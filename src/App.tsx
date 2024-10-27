@@ -1,7 +1,7 @@
-import { Routes, Route } from "react-router-dom";
-import SignInPage from "./pages/signIn";
-import SpotifySyncPage from "./pages/spotify";
-import CompleteScreen from "./pages/complete";
+import { Route, Routes } from "react-router-dom";
+import SignInPage from "@pages/onBoarding/signIn";
+import SpotifySyncPage from "@pages/onBoarding/spotify";
+import CompleteScreen from "@pages/onBoarding/complete";
 
 function App() {
   return (
