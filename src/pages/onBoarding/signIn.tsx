@@ -13,13 +13,13 @@ const SignInPage = () => {
       <div className="mb-[74px] flex flex-col space-y-3">
         <button
           onClick={() => navigate("/spotify")}
-          className="h-[59px] rounded-full bg-white"
+          className="h-[59px] rounded-full bg-white font-medium"
         >
           Google로 로그인하기
         </button>
         <button
           onClick={() => navigate("/spotify")}
-          className="h-[59px] rounded-full bg-white"
+          className="h-[59px] rounded-full bg-white font-medium text-black"
         >
           Apple로 로그인하기
         </button>

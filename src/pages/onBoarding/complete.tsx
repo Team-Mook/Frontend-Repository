@@ -7,7 +7,7 @@ const CompleteScreen = () => {
       </div>
 
       <div className="mb-[101px] flex flex-col">
-        <button className="h-[59px] rounded-full bg-[#3E3F44] text-white">
+        <button className="h-[59px] rounded-full bg-[#3E3F44] font-semibold text-white">
           Mook 시작하기
         </button>
       </div>

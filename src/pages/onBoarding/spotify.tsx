@@ -17,13 +17,13 @@ const SpotifySyncPage = () => {
       <div className="mb-[34px] flex flex-col space-y-2">
         <button
           onClick={() => navigate("/complete")}
-          className="h-[59px] rounded-full bg-[#3E3F44] text-white"
+          className="h-[59px] rounded-full bg-[#3E3F44] font-semibold text-white"
         >
           연동하러 가기
         </button>
         <button
           onClick={() => navigate("/complete")}
-          className="h-[59px] text-[#737373] underline"
+          className="h-[59px] font-medium text-[#737373] underline"
         >
           다음에 할래요
         </button>
