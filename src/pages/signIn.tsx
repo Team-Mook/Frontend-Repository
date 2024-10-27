@@ -6,7 +6,7 @@ const SignInPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col justify-between h-screen px-5">
+    <div className="flex flex-col justify-between h-screen px-6">
       <div className="mt-48 flex justify-center">
         <img src={Logo} />
       </div>
